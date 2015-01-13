@@ -14,6 +14,7 @@
 		6FAC1EAF1A63A3D700E2BD04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC1EAE1A63A3D700E2BD04 /* Images.xcassets */; };
 		6FAC1EB21A63A3D700E2BD04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC1EB01A63A3D700E2BD04 /* LaunchScreen.xib */; };
 		6FAC1EBE1A63A3D700E2BD04 /* SimpleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC1EBD1A63A3D700E2BD04 /* SimpleTableTests.m */; };
+		6FC9A5111A64CA0900C631AF /* codef.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9A5101A64CA0900C631AF /* codef.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		6FAC1EB71A63A3D700E2BD04 /* SimpleTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAC1EBC1A63A3D700E2BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAC1EBD1A63A3D700E2BD04 /* SimpleTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableTests.m; sourceTree = "<group>"; };
+		6FC9A5101A64CA0900C631AF /* codef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codef.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		6FAC1EA01A63A3D700E2BD04 /* SimpleTable */ = {
 			isa = PBXGroup;
 			children = (
+				6FC9A5101A64CA0900C631AF /* codef.png */,
 				6FAC1EA51A63A3D700E2BD04 /* AppDelegate.h */,
 				6FAC1EA61A63A3D700E2BD04 /* AppDelegate.m */,
 				6FAC1EA81A63A3D700E2BD04 /* ViewController.h */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FAC1EAD1A63A3D700E2BD04 /* Main.storyboard in Resources */,
+				6FC9A5111A64CA0900C631AF /* codef.png in Resources */,
 				6FAC1EB21A63A3D700E2BD04 /* LaunchScreen.xib in Resources */,
 				6FAC1EAF1A63A3D700E2BD04 /* Images.xcassets in Resources */,
 			);
@@ -412,6 +416,7 @@
 				6FAC1EC31A63A3D700E2BD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FAC1EC41A63A3D700E2BD04 /* Build configuration list for PBXNativeTarget "SimpleTableTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				6FAC1EC61A63A3D700E2BD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

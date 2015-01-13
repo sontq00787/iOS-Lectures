@@ -42,6 +42,7 @@
     }
     
     cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
+    cell.imageView.image = [UIImage imageNamed:@"codef.png"];
     return cell;
 }
 
