@@ -15,6 +15,11 @@
 		6FAC1EB21A63A3D700E2BD04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC1EB01A63A3D700E2BD04 /* LaunchScreen.xib */; };
 		6FAC1EBE1A63A3D700E2BD04 /* SimpleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC1EBD1A63A3D700E2BD04 /* SimpleTableTests.m */; };
 		6FC9A5111A64CA0900C631AF /* codef.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9A5101A64CA0900C631AF /* codef.png */; };
+		E2368DB61A650B8F00390256 /* ip6plus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2368DB11A650B8F00390256 /* ip6plus.jpg */; };
+		E2368DB71A650B8F00390256 /* ipadAir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2368DB21A650B8F00390256 /* ipadAir2.jpg */; };
+		E2368DB81A650B8F00390256 /* macbookair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2368DB31A650B8F00390256 /* macbookair.jpg */; };
+		E2368DB91A650B8F00390256 /* s4.png in Resources */ = {isa = PBXBuildFile; fileRef = E2368DB41A650B8F00390256 /* s4.png */; };
+		E2368DBA1A650B8F00390256 /* xperiaz.png in Resources */ = {isa = PBXBuildFile; fileRef = E2368DB51A650B8F00390256 /* xperiaz.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 		6FAC1EBC1A63A3D700E2BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAC1EBD1A63A3D700E2BD04 /* SimpleTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableTests.m; sourceTree = "<group>"; };
 		6FC9A5101A64CA0900C631AF /* codef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codef.png; sourceTree = "<group>"; };
+		E2368DB11A650B8F00390256 /* ip6plus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ip6plus.jpg; sourceTree = "<group>"; };
+		E2368DB21A650B8F00390256 /* ipadAir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipadAir2.jpg; sourceTree = "<group>"; };
+		E2368DB31A650B8F00390256 /* macbookair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbookair.jpg; sourceTree = "<group>"; };
+		E2368DB41A650B8F00390256 /* s4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s4.png; sourceTree = "<group>"; };
+		E2368DB51A650B8F00390256 /* xperiaz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xperiaz.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,7 @@
 				6FAC1EA81A63A3D700E2BD04 /* ViewController.h */,
 				6FAC1EA91A63A3D700E2BD04 /* ViewController.m */,
 				6FAC1EAB1A63A3D700E2BD04 /* Main.storyboard */,
+				E2368DBB1A650B9500390256 /* images */,
 				6FAC1EAE1A63A3D700E2BD04 /* Images.xcassets */,
 				6FAC1EB01A63A3D700E2BD04 /* LaunchScreen.xib */,
 				6FAC1EA11A63A3D700E2BD04 /* Supporting Files */,
@@ -120,6 +131,18 @@
 				6FAC1EBC1A63A3D700E2BD04 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2368DBB1A650B9500390256 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E2368DB11A650B8F00390256 /* ip6plus.jpg */,
+				E2368DB21A650B8F00390256 /* ipadAir2.jpg */,
+				E2368DB31A650B8F00390256 /* macbookair.jpg */,
+				E2368DB41A650B8F00390256 /* s4.png */,
+				E2368DB51A650B8F00390256 /* xperiaz.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +225,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2368DB91A650B8F00390256 /* s4.png in Resources */,
 				6FAC1EAD1A63A3D700E2BD04 /* Main.storyboard in Resources */,
 				6FC9A5111A64CA0900C631AF /* codef.png in Resources */,
 				6FAC1EB21A63A3D700E2BD04 /* LaunchScreen.xib in Resources */,
+				E2368DB71A650B8F00390256 /* ipadAir2.jpg in Resources */,
+				E2368DB61A650B8F00390256 /* ip6plus.jpg in Resources */,
+				E2368DB81A650B8F00390256 /* macbookair.jpg in Resources */,
+				E2368DBA1A650B8F00390256 /* xperiaz.png in Resources */,
 				6FAC1EAF1A63A3D700E2BD04 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
