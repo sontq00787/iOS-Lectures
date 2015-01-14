@@ -20,6 +20,7 @@
 		E2368DB81A650B8F00390256 /* macbookair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2368DB31A650B8F00390256 /* macbookair.jpg */; };
 		E2368DB91A650B8F00390256 /* s4.png in Resources */ = {isa = PBXBuildFile; fileRef = E2368DB41A650B8F00390256 /* s4.png */; };
 		E2368DBA1A650B8F00390256 /* xperiaz.png in Resources */ = {isa = PBXBuildFile; fileRef = E2368DB51A650B8F00390256 /* xperiaz.png */; };
+		E2C4738A1A6604B100DC71CE /* ItemDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C473891A6604B100DC71CE /* ItemDetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		E2368DB31A650B8F00390256 /* macbookair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbookair.jpg; sourceTree = "<group>"; };
 		E2368DB41A650B8F00390256 /* s4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s4.png; sourceTree = "<group>"; };
 		E2368DB51A650B8F00390256 /* xperiaz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xperiaz.png; sourceTree = "<group>"; };
+		E2C473881A6604B100DC71CE /* ItemDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailController.h; sourceTree = "<group>"; };
+		E2C473891A6604B100DC71CE /* ItemDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				6FAC1EAE1A63A3D700E2BD04 /* Images.xcassets */,
 				6FAC1EB01A63A3D700E2BD04 /* LaunchScreen.xib */,
 				6FAC1EA11A63A3D700E2BD04 /* Supporting Files */,
+				E2C473881A6604B100DC71CE /* ItemDetailController.h */,
+				E2C473891A6604B100DC71CE /* ItemDetailController.m */,
 			);
 			path = SimpleTable;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 				6FAC1EAA1A63A3D700E2BD04 /* ViewController.m in Sources */,
 				6FAC1EA71A63A3D700E2BD04 /* AppDelegate.m in Sources */,
 				6FAC1EA41A63A3D700E2BD04 /* main.m in Sources */,
+				E2C4738A1A6604B100DC71CE /* ItemDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ItemDetailController.h"
 @interface ViewController ()
 
 @end
@@ -61,14 +61,17 @@
     
     return cell;
 }
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UIAlertView *messageAlert = [[UIAlertView alloc]
-                                 initWithTitle:[tableData objectAtIndex:indexPath.row] message:[mobilePrices objectAtIndex:indexPath.row] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    
-    // Display Alert Message
-    [messageAlert show];
-    
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    [self performSegueWithIdentifier:@"showInfo" sender:self];
+//}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showInfo"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        ItemDetailController *itemDetailVC = segue.destinationViewController;
+        itemDetailVC.itemName = [tableData objectAtIndex:indexPath.row];
+        itemDetailVC.itemPrice = [mobilePrices objectAtIndex:indexPath.row];
+    }
 }
 
 @end
