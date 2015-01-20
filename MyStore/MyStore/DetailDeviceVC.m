@@ -13,12 +13,17 @@
 @end
 
 @implementation DetailDeviceVC
+@synthesize device;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
+    if (self.device) {
+        [self.name setText:[self.device valueForKey:@"name"]];
+        [self.version setText:[self.device valueForKey:@"version"]];
+        [self.company setText:[self.device valueForKey:@"company"]];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,11 +47,20 @@
 
     NSManagedObjectContext *context = [self managedObjectContext];
     
-    // Create a new managed object
-    NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"Device" inManagedObjectContext:context];
-    [newDevice setValue:self.name.text forKey:@"name"];
-    [newDevice setValue:self.version.text forKey:@"version"];
-    [newDevice setValue:self.company.text forKey: @"company"];
+    if (self.device) {
+        // Update existing device
+        [self.device setValue:self.name.text forKey:@"name"];
+        [self.device setValue:self.version.text forKey:@"version"];
+        [self.device setValue:self.company.text forKey:@"company"];
+        
+    }else{
+        // Create a new managed object
+        NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"Device" inManagedObjectContext:context];
+        [newDevice setValue:self.name.text forKey:@"name"];
+        [newDevice setValue:self.version.text forKey:@"version"];
+        [newDevice setValue:self.company.text forKey: @"company"];
+        
+    } 
     
     
     NSError *error = nil;

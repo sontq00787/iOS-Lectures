@@ -15,6 +15,8 @@
 @property (strong, nonatomic) IBOutlet UITextField *version;
 @property (strong, nonatomic) IBOutlet UITextField *company;
 
+@property (strong) NSManagedObject *device;
+
 
 - (IBAction)saveBtnTap:(id)sender;
 - (IBAction)cancelBtnTap:(id)sender;

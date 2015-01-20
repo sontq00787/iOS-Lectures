@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DetailDeviceVC.h"
 
 @interface ViewController ()
 
@@ -79,6 +80,43 @@
     [cell.detailTextLabel setText:[device valueForKey:@"company"]];
     
     return cell;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Return NO if you do not want the specified item to be editable.
+    return YES;
+}
+
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSManagedObjectContext *context = [self managedObjectContext];
+    
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        // Delete object from database
+        [context deleteObject:[self.devices objectAtIndex:indexPath.row]];
+        
+        NSError *error = nil;
+        if (![context save:&error]) {
+            NSLog(@"Can't Delete! %@ %@", error, [error localizedDescription]);
+            return;
+        }
+        
+        // Remove device from table view
+        [self.devices removeObjectAtIndex:indexPath.row];
+        [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    }
+}
+
+#pragma mark - segue
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"updateSegue"]) {
+        NSManagedObject *selectedDevice = [self.devices objectAtIndex:[[self.tableView indexPathForSelectedRow] row]];
+        DetailDeviceVC *destViewController = segue.destinationViewController;
+        destViewController.device = selectedDevice;
+    }
 }
 
 @end
