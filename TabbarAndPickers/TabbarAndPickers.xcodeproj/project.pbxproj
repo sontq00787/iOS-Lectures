@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FFEDF991A89F7C800B27225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFEDF981A89F7C800B27225 /* main.m */; };
+		6FFEDF9C1A89F7C800B27225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFEDF9B1A89F7C800B27225 /* AppDelegate.m */; };
+		6FFEDF9F1A89F7C800B27225 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFEDF9E1A89F7C800B27225 /* ViewController.m */; };
+		6FFEDFA21A89F7C800B27225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFEDFA01A89F7C800B27225 /* Main.storyboard */; };
+		6FFEDFA41A89F7C800B27225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFEDFA31A89F7C800B27225 /* Images.xcassets */; };
+		6FFEDFA71A89F7C800B27225 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFEDFA51A89F7C800B27225 /* LaunchScreen.xib */; };
+		6FFEDFB31A89F7C900B27225 /* TabbarAndPickersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFEDFB21A89F7C900B27225 /* TabbarAndPickersTests.m */; };
+		6FFEDFBE1A8A09E700B27225 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFEDFBD1A8A09E700B27225 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FFEDFAD1A89F7C900B27225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FFEDF8B1A89F7C800B27225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFEDF921A89F7C800B27225;
+			remoteInfo = TabbarAndPickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FFEDF931A89F7C800B27225 /* TabbarAndPickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarAndPickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFEDF971A89F7C800B27225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFEDF981A89F7C800B27225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FFEDF9A1A89F7C800B27225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FFEDF9B1A89F7C800B27225 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FFEDF9D1A89F7C800B27225 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FFEDF9E1A89F7C800B27225 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FFEDFA11A89F7C800B27225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FFEDFA31A89F7C800B27225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FFEDFA61A89F7C800B27225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6FFEDFAC1A89F7C900B27225 /* TabbarAndPickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarAndPickersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFEDFB11A89F7C900B27225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFEDFB21A89F7C900B27225 /* TabbarAndPickersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarAndPickersTests.m; sourceTree = "<group>"; };
+		6FFEDFBC1A8A09E700B27225 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6FFEDFBD1A8A09E700B27225 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FFEDF901A89F7C800B27225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFEDFA91A89F7C900B27225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FFEDF8A1A89F7C800B27225 = {
+			isa = PBXGroup;
+			children = (
+				6FFEDF951A89F7C800B27225 /* TabbarAndPickers */,
+				6FFEDFAF1A89F7C900B27225 /* TabbarAndPickersTests */,
+				6FFEDF941A89F7C800B27225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FFEDF941A89F7C800B27225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FFEDF931A89F7C800B27225 /* TabbarAndPickers.app */,
+				6FFEDFAC1A89F7C900B27225 /* TabbarAndPickersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FFEDF951A89F7C800B27225 /* TabbarAndPickers */ = {
+			isa = PBXGroup;
+			children = (
+				6FFEDF9A1A89F7C800B27225 /* AppDelegate.h */,
+				6FFEDF9B1A89F7C800B27225 /* AppDelegate.m */,
+				6FFEDF9D1A89F7C800B27225 /* ViewController.h */,
+				6FFEDF9E1A89F7C800B27225 /* ViewController.m */,
+				6FFEDFBC1A8A09E700B27225 /* SecondViewController.h */,
+				6FFEDFBD1A8A09E700B27225 /* SecondViewController.m */,
+				6FFEDFA01A89F7C800B27225 /* Main.storyboard */,
+				6FFEDFA31A89F7C800B27225 /* Images.xcassets */,
+				6FFEDFA51A89F7C800B27225 /* LaunchScreen.xib */,
+				6FFEDF961A89F7C800B27225 /* Supporting Files */,
+			);
+			path = TabbarAndPickers;
+			sourceTree = "<group>";
+		};
+		6FFEDF961A89F7C800B27225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FFEDF971A89F7C800B27225 /* Info.plist */,
+				6FFEDF981A89F7C800B27225 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FFEDFAF1A89F7C900B27225 /* TabbarAndPickersTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FFEDFB21A89F7C900B27225 /* TabbarAndPickersTests.m */,
+				6FFEDFB01A89F7C900B27225 /* Supporting Files */,
+			);
+			path = TabbarAndPickersTests;
+			sourceTree = "<group>";
+		};
+		6FFEDFB01A89F7C900B27225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FFEDFB11A89F7C900B27225 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FFEDF921A89F7C800B27225 /* TabbarAndPickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFEDFB61A89F7C900B27225 /* Build configuration list for PBXNativeTarget "TabbarAndPickers" */;
+			buildPhases = (
+				6FFEDF8F1A89F7C800B27225 /* Sources */,
+				6FFEDF901A89F7C800B27225 /* Frameworks */,
+				6FFEDF911A89F7C800B27225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbarAndPickers;
+			productName = TabbarAndPickers;
+			productReference = 6FFEDF931A89F7C800B27225 /* TabbarAndPickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FFEDFAB1A89F7C900B27225 /* TabbarAndPickersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFEDFB91A89F7C900B27225 /* Build configuration list for PBXNativeTarget "TabbarAndPickersTests" */;
+			buildPhases = (
+				6FFEDFA81A89F7C900B27225 /* Sources */,
+				6FFEDFA91A89F7C900B27225 /* Frameworks */,
+				6FFEDFAA1A89F7C900B27225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFEDFAE1A89F7C900B27225 /* PBXTargetDependency */,
+			);
+			name = TabbarAndPickersTests;
+			productName = TabbarAndPickersTests;
+			productReference = 6FFEDFAC1A89F7C900B27225 /* TabbarAndPickersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FFEDF8B1A89F7C800B27225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CodeF;
+				TargetAttributes = {
+					6FFEDF921A89F7C800B27225 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6FFEDFAB1A89F7C900B27225 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6FFEDF921A89F7C800B27225;
+					};
+				};
+			};
+			buildConfigurationList = 6FFEDF8E1A89F7C800B27225 /* Build configuration list for PBXProject "TabbarAndPickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FFEDF8A1A89F7C800B27225;
+			productRefGroup = 6FFEDF941A89F7C800B27225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFEDF921A89F7C800B27225 /* TabbarAndPickers */,
+				6FFEDFAB1A89F7C900B27225 /* TabbarAndPickersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FFEDF911A89F7C800B27225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFEDFA21A89F7C800B27225 /* Main.storyboard in Resources */,
+				6FFEDFA71A89F7C800B27225 /* LaunchScreen.xib in Resources */,
+				6FFEDFA41A89F7C800B27225 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFEDFAA1A89F7C900B27225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FFEDF8F1A89F7C800B27225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFEDFBE1A8A09E700B27225 /* SecondViewController.m in Sources */,
+				6FFEDF9F1A89F7C800B27225 /* ViewController.m in Sources */,
+				6FFEDF9C1A89F7C800B27225 /* AppDelegate.m in Sources */,
+				6FFEDF991A89F7C800B27225 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFEDFA81A89F7C900B27225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFEDFB31A89F7C900B27225 /* TabbarAndPickersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FFEDFAE1A89F7C900B27225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FFEDF921A89F7C800B27225 /* TabbarAndPickers */;
+			targetProxy = 6FFEDFAD1A89F7C900B27225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FFEDFA01A89F7C800B27225 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFEDFA11A89F7C800B27225 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FFEDFA51A89F7C800B27225 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFEDFA61A89F7C800B27225 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FFEDFB41A89F7C900B27225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FFEDFB51A89F7C900B27225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FFEDFB71A89F7C900B27225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabbarAndPickers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FFEDFB81A89F7C900B27225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabbarAndPickers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FFEDFBA1A89F7C900B27225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabbarAndPickersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabbarAndPickers.app/TabbarAndPickers";
+			};
+			name = Debug;
+		};
+		6FFEDFBB1A89F7C900B27225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabbarAndPickersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabbarAndPickers.app/TabbarAndPickers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FFEDF8E1A89F7C800B27225 /* Build configuration list for PBXProject "TabbarAndPickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFEDFB41A89F7C900B27225 /* Debug */,
+				6FFEDFB51A89F7C900B27225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFEDFB61A89F7C900B27225 /* Build configuration list for PBXNativeTarget "TabbarAndPickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFEDFB71A89F7C900B27225 /* Debug */,
+				6FFEDFB81A89F7C900B27225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FFEDFB91A89F7C900B27225 /* Build configuration list for PBXNativeTarget "TabbarAndPickersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFEDFBA1A89F7C900B27225 /* Debug */,
+				6FFEDFBB1A89F7C900B27225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FFEDF8B1A89F7C800B27225 /* Project object */;
+}
